@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!--Link de animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Link de CSS-->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../img/favIcon.png">
+    <!--Link de googleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <title>Contacto - PsiConectadxs</title>
+</head>
+
+<body>
+    <div class="contenedor5">
+
+        <header id="header">
+            <h1 class="animate__animated animate animate__bounceInLeft"> Formulario de contacto</h1>
+            <h2 class="subtitulo">Mandanos tu consulta y nos comunicaremos con vos</h2>
+            <img class="logoBanner" src="../img/favIcon.png" alt="logo">
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Sobre PsiConectadxs</a>
+                </li>
+                <li>
+                    <a href="quienes-somos.html">Quiénes somos</a>
+                </li>
+                <li>
+                    <a href="nuestros-articulos.html">Nuestros Artículos</a>
+                </li>
+                <li>
+                    <a href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="contenedorFormu">
+            <form action="">
+                <fieldset class="datos">
+                    <legend>
+                        DATOS PERSONALES
+                    </legend>
+
+                    <div class="infoUser">
+                        <label for="nombre"> Nombre: </label>
+                        <input type="text" name="nombre" placeholder="escribi tu nombre">
+                    </div>
+                    <div class="infoUser">
+                        <label for="apellido"> Apellido: </label>
+                        <input type="text" name="apellido" placeholder="escribi tu apellido">
+                    </div>
+                    <div class="infoUser">
+                        <label for="telefono"> Teléfono: </label>
+                        <input type="number" name="telefono" placeholder="sin 0 y sin 15">
+                    </div>
+                    <div class="infoUser">
+                        <label for="email"> e-mail: </label>
+                        <input type="email" name="email" placeholder="tunombre@dominio.com">
+                    </div>
+                </fieldset>
+
+                <fieldset class="datos">
+                    <legend>
+                        GÉNERO
+                    </legend>
+                    <div class="infoUser">
+                        <label for="genero"></label>
+                        <input type="radio" name="genero" value="Mujer"> Mujer <br>
+                        <input type="radio" name="genero" value="Hombre"> Hombre <br>
+                        <input type="radio" name="genero" value="No binario"> No binario <br>
+                        <input type="radio" name="genero" value="Sin especificar"> Sin especificar
+                    </div>
+                </fieldset>
+
+                <div class="contenedorFinal">
+                    <div class="datos">
+                        <label for="pais"> País: </label>
+                        <select name="pais" id="">
+                            <option value="Argentina"> Argentina </option>
+                            <option value="Uruguay"> Uruguay </option>
+                            <option value="Paraguay"> Paraguay </option>
+                            <option value="Chile"> Chile </option>
+                            <option value="Mexico"> México </option>
+                            <option value="Otro"> Otro </option>
+                        </select>
+                    </div>
+
+                    <div>Dejanos tu consulta acá:</div>
+                    <textarea name="consulta" id="consulta" cols="70" rows="10"></textarea>
+
+                    <div class="terms">Acepto los <a href="preguntas-frecuentes.html" target="_blank">términos y
+                            condiciones</a>
+                        <input type="checkbox" name="acepta" value="1" />
+                    </div>
+                </div>
+
+                <div class="botonesFormu">
+                    <div class="botonFormu">
+                        <input type="reset" value="Restablecer">
+                    </div>
+                    <div class="botonFormu">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <img class="botonWA" src="../img/botonWhatsApp1.png" alt="WhatsApp">
+
+        <footer>
+            <div class="iconosRedes">
+                <a href="https://www.instagram.com/psi.conectados/" target="_blank"><img class="iconos"
+                        src="../img/iconoIG.png" alt="instagram"></a>
+                <img class="iconos" src="../img/iconoFB.png" alt="facebook">
+                <img class="iconos" src="../img/iconoTW.png" alt="twitter">
+            </div>
+            <h2 class="pieDePag">PsiConectadxs 2022 - Todos los derechos reservados. Sitio Web desarrollado por
+                @gfernand987</h2>
+            <div class="botonArriba">
+                <a href="#header">
+                    Ir arriba
+                </a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
